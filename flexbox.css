@@ -1,0 +1,11 @@
+.menu {
+    display: flex; /*включение flex-box*/
+    flex-direction: row; /*направление*/
+    flex-wrap: wrap; /*перенос строки*/
+    justify-content: space-between; /*для оси ох*/
+    align-items: flex-end; /*для оси оу*/
+    align-content: flex-start; /*n строк объектов по оу*/
+    order: 0; /*порядок элементов*/
+    flex-grow: 6; /*занимаемое пространство*/
+    align-self: auto; /*выравнивание*/
+}
