@@ -1,0 +1,33 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: bold;
+    text-align: center;
+
+}
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.text-1, .text-2, .text-3 {
+    flex: 1 100%;
+    padding: 10px;
+}
+.header {
+    padding: 10px;
+    background-color: red;
+}
+.text-1 {
+    background-color: yellow;
+}
+.text-2 {
+    background-color: dodgerblue ;
+}
+.text-3 {
+    background-color: palevioletred;
+}
+.footer {
+    background-color: greenyellow;
+    padding: 10px;
+}
